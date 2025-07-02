@@ -75,7 +75,7 @@ class _LoginState extends State<Login> {
 
                           OutlinedButton(
                             onPressed: () {
-                              print("Login Clicked");
+                              Navigator.pushNamed(context, "/home");
                             },
                             style: OutlinedButton.styleFrom(
                               fixedSize: Size(200, 50),
